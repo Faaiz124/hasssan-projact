@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="shortcut icon" href="images/logoicon.jpg"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style2.css"/>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+       <!-- Nav bar start  -->
+       <nav>
+    <a href="#" class="logo">
+        <img src="images/algr.png" width="100%" height="69px"/>
+    </a>
+    <input class="menu-btn" type="checkbox" id="menu-btn"/>
+    <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+    </label>
+    <ul class="menu" style="border-radius: 5px;">
+        <!-- <li><a class="active" href="index.html" style="width:auto; border-radius: 5px; cursor: pointer;">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="#">My Portal</a></li>
+        <li><a href="#">Apply Now</a></li> -->
+        <li><a class="active" id="logout-btn" style="width:auto; border-radius: 5px; cursor: pointer;">Logout</a></li>
+    </ul>
+</nav>
+   <!-- Nav bar end  -->
+
+
+
+<!--services----------------------->
+<section class="services">
+    <!--heading----------->
+    <!-- <div class="services-heading">
+      
+    </div> -->
+    <!--box-container----------------->
+    <div class="box-container Portal-container">
+
+    </div>
+    <div class="Portal-Container">
+        <div class="notice-bord">
+            <ul>
+                <li><button onclick="showNoticeBoard()">Notice Board</button></li>
+                <li><button onclick="showTimeSchedule()">Class Schedule</button></li>
+                <li><button onclick="showEvent()">Event</button></li>
+                <li><button onclick="showFeeChallan()">Fee Challan</button></li>
+            </ul>
+       </div>
+    
+       
+      <div class="setright">
+     
+       </div>
+       <div class="notification">
+        <img width="30px" src="img/active.png" alt="">
+
+        <div class="noti-text">
+          <h2>Notification</h2>
+          <hr>
+            <div class="notification1"> Event DAE orientation 2023.</div>
+            <hr>
+            <div class="notification1"> Midterm Result has been Generated.</div>
+            <hr>
+            <div class="notification1"> New Notice in the project Exhibition will be expected from 22nd June 2023.</div>
+            <hr>
+            <div class="notification1"> New Assignment in WEB PROGRAMMING WITH JAVA.</div>
+            <hr>
+            <div class="notification1"> Challan 004850 has been successfully paid.</div>
+            <hr>
+            <div class="notification1"> New Announcement.</div>
+            <hr>
+            <div class="notification1"> New Quiz in GRAPHIC DESIGNING.</div>
+            <hr>
+            <div class="notification1"> New Lecture in Network ADMINISTRATION.</div>
+            <hr>
+          
+
+        </div>
+       </div>
+     </div>
+
+     <div class="time-table">
+        <div class="removee"><img id="remove" class="remove" width="30px" onclick="showTimeSchedule()" src="img/remove.png" alt=""></div>
+        
+        <div class="timetable-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Lecture Type</th>
+                  <th>Course</th>
+                  <th>Teacher</th>
+                  <th>Time</th>
+                  <th>Room No</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Theory</td>
+                  <td>NETWORK ADMINISTRATION</td>
+                  <td>Muhammad Sajid</td>
+                  <td>09:45 AM - 10:30 AM</td>
+                  <td>THIRD HT-05B</td>
+                </tr>
+                <tr>
+                  <td>Theory</td>
+                  <td>OPERATING SYSTEM</td>
+                  <td>Syed Zafar Nadeem</td>
+                  <td>10:30 AM - 11:15 AM</td>
+                  <td>GROUND HG-07</td>
+                </tr>
+                <tr>
+                  <td>Practical</td>
+                  <td>WEB PROGRAMMING WITH JAVA</td>
+                  <td>Muhammad Masood</td>
+                  <td>11:15 AM - 12:00 PM</td>
+                  <td>FIRST HF-05</td>
+                </tr>
+                <tr>
+                  <td>Practical</td>
+                  <td>PROJECT</td>
+                  <td>Muhammad Masood</td>
+                  <td>12:00 PM - 12:45 PM</td>
+                  <td>FIRST HF-05</td>
+                </tr>
+                <tr>
+                  <td>Practical</td>
+                  <td>PROJECT</td>
+                  <td>Muhammad Masood</td>
+                  <td>12:45 PM - 13:30 PM</td>
+                  <td>FIRST HF-05</td>
+                </tr>
+                <!-- Add more rows for additional classes -->
+              </tbody>
+            </table>
+          </div>
+    </div>
+  
+    </div>
+</section>
+
+   
+   
+<script src="sweetalert2.min.js"></script>
+    <script src="App.js"></script>
+    <script src="App2.js"></script>
+    <script type="module" src="Script2.js"></script>
+    <script type="module" src="Script.js"></script>
+</body>
+</html>

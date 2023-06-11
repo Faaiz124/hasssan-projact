@@ -1,0 +1,277 @@
+.setright{
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* display: flex; */
+   justify-content: space-between;
+   margin: 50px;
+   
+}
+.setright h1{
+    font-size: 2.2rem;
+    margin-left: 10px;
+    font-family: "Roboto";
+}
+.setright p{
+    background: #9cd8e5;
+    font-size: 1.3rem;
+    margin: 15px;
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* .leftside p{
+    width: 400px;
+    
+} */
+
+
+
+.proimg{
+    padding-right: 10px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.intro{
+    margin-top: 50px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.introduction{
+margin-right: 20px;
+
+}
+
+.introduction h1{
+    font-size: 3em;
+    font-weight: 800;
+    font-family: "Roboto";
+}
+.introduction h2{
+    font-size: 2.5em;
+    font-weight: 800;
+    font-family: "Roboto";
+}
+.introduction p{
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: 800;
+    font-family: "Roboto";
+    color: black !important;
+}
+
+.introduction button{
+    outline: none;
+    border: none;
+    background-color: #F14D5D;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.introduction button:hover{
+    border-radius: 5px;
+    background-color: #F14D5D;
+    color:#fff;
+    box-shadow: 5px 10px 30px rgba(219, 74, 6, 0.5);
+    transition: all ease 0.2s;
+}
+
+@media only screen and (max-width: 1000px) {
+    .intro-img{
+        width: 100%;
+
+    }
+    .intro{
+        flex-wrap: wrap;
+    }
+    .notice-bord 
+        {
+        display: none !important;
+        
+    }
+  }
+@media only screen and (max-width: 850px) {
+    .introduction{
+        margin-left: 0px;
+
+        }
+       
+  }
+  @media only screen and (max-width: 380px) {
+    .introduction h1{
+        font-size: 1.2em;
+        font-weight: 800;
+        font-family: "Roboto";
+    }
+    .introduction h2{
+        font-size: 1em;
+        font-weight: 800;
+        font-family: "Roboto";
+    }
+    .introduction p{
+        font-size: 1em;
+        font-style: italic;
+        font-weight: 800;
+        font-family: "Roboto";
+    }
+}
+  @media only screen and (max-width: 450px) {
+    .setright p{
+        background: #9cd8e5;
+        font-size: 1rem;
+        font-weight: 600;
+    }  
+    .notice-bord button{
+        display: none !important;
+        
+    }
+}
+
+
+.Portal-Container{
+    position: relative;
+}
+
+
+
+
+/* footer///////////////// */
+footer {
+    background-color: rgb(35, 35, 35);
+}
+
+footer h1,h3{
+    color: #fff !important;
+    margin-top: 20px;
+}
+
+footer img{
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.container p, a{
+    color: #fff ;
+}
+
+.time-table{
+    margin: 50px 0px 50px 0px;
+    padding: 50px;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    display: none;
+}
+
+  
+.timetable-container {
+    display: flex;
+    height: 450px;
+    overflow: scroll;
+
+  }
+  table {
+    width: 100%;
+    /* border-collapse: collapse; */
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+.removee{
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    background: #f2f2f2;
+
+}
+.time-table {
+    display: none;
+  }
+  
+  .time-table.show {
+    display: block;
+  }
+
+.pera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pera p{
+    padding: 10px !important;
+}
+
+.logoset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+.logoset img{
+    width: 50%;
+}
+
+
+    @media only screen and (max-width: 560px) {
+        .logoset img{
+            width: 80%;
+        }
+      }
+
+      .noti-text{
+        position: absolute;
+        margin-left: -300px;
+        top: 20px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        padding: 10px;
+        max-width: 300px;
+      }
+
+      .notification .noti-text {
+        display: none;
+      }
+      
+      .notification:hover .noti-text {
+        display: block;
+      }
+      
+      @media only screen and (max-width: 495px) {
+        .notification{
+            display: none;
+        }
+      }
+
+      .notification1:hover{
+        background-color: #F14D5D;
+        color: #f0f0f0;
+      }
+
+      .notification1{
+        font-size: 1.1em;
+        font-weight: 550;
+        cursor: pointer;
+      }
